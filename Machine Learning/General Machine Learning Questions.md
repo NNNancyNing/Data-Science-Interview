@@ -82,7 +82,13 @@
     
 - **Normalization & Standardization**:
     
+    
 - **One-hot encoding & Dummy encoding**:
-
+    
+    One-hot encoding created a new set of binary variables that is equal to the number of categories (k) in the variable.
+    
+    Dummy encoding created k-1 binary variables.
+    
+    
  
 
