@@ -1,4 +1,3 @@
-# 1. General Concepts
 ## Bias & Variance
 - **Bias**: the difference between the average prediction result of the model & the actual value.
 - **Variance**: the variability of model prediction.
