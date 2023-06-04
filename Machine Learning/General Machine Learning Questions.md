@@ -36,7 +36,13 @@
 - RMSE is preferred over MSE, as it's the same unit as the target variable; MAE is less sensitive to outliers; Adjusted R-Square is useful when comparing models with different number of predictors.
 
 ## Classification Metrics
-
+- **Accuracy**
+- **Precision**: the proportion of true positive classifications out of all positive classifications. TP/(TP+FP); Used when cost of FP is high.
+- **Recall**: the proportion of true positive classifications out of all actual positive instances. TP/(TP+FN); Used when cost of FN is high.
+- **F1 Score**: harmonic mean of Precision and Recall. $2\frac{precisionxrecall}{precision+recall}$; Used when cost of FP and FN is similar.
+- **ROC Curve**: the plot of TPR and FPR; Used when cost of FP and FN varies.
+- **AUC**: area under ROC Curve
+- **Log Loss(Cross-entropy Loss)**: difference between the predicted probabilities and actual binary labels; Used when model outputs probabilities instead of binary classifications.
 
 
 
