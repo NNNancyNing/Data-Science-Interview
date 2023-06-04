@@ -82,6 +82,10 @@
     
 - **Normalization & Standardization**:
     
+    Normalization: scale data so that it falls between 0 and 1.  $X_i` = (X_i - min(X))/(max(X)-min(X))$
+    
+    Standardization: transform data so that it has mean 0 and standard deviation 1 $X_i` = (X_i - mean(X)) / std(X)$
+    
     
 - **One-hot encoding & Dummy encoding**:
     
