@@ -43,6 +43,12 @@
 - **ROC Curve**: the plot of TPR and FPR; Used when cost of FP and FN varies.
 - **AUC**: area under ROC Curve
 - **Log Loss(Cross-entropy Loss)**: difference between the predicted probabilities and actual binary labels; Used when model outputs probabilities instead of binary classifications.
+- **Confusion Matrix**: 
+            <img src="https://github.com/NNNancyNing/Data-Science-Interview/blob/main/Images/confusion%20matrix.jpeg" width=550 height=400>
+
+
+## General Machine Learning Steps
+- **Whole Steps**: Split train&test dataset; Feature engineering; Specify a resampling procedure: K-fold CV/bootstrap; Create the Hyperparameter Grid; Execute grid search; Evaluate performance to choose the best hyperparameter combinations; Apply model on test dataset to obtain classification/regression results.
 
 
 
