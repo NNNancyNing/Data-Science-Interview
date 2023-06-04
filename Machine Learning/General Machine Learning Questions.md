@@ -48,9 +48,41 @@
 
 
 ## General Machine Learning Steps
-- **Whole Steps**: Split train&test dataset; Feature engineering; Specify a resampling procedure: K-fold CV/bootstrap; Create the Hyperparameter Grid; Execute grid search; Evaluate performance to choose the best hyperparameter combinations; Apply model on test dataset to obtain classification/regression results.
+- **Whole Steps**: 
+            
+    Split train&test dataset; 
+    
+    Feature engineering; 
+    
+    Specify a resampling procedure: K-fold CV/bootstrap; 
+    
+    Create the Hyperparameter Grid; 
+    
+    Execute grid search; 
+    
+    Evaluate performance to choose the best hyperparameter combinations; 
+    
+    Apply model on test dataset to obtain classification/regression results.
+
+- **K-fold Cross Validation**: Randomly divide training set into K folds with equal size. Fit the model on K-1 folds, assess the performance on the remaining fold. The above procedure repeats k times, when we obtain k validation errors, we take average of these k errors. 
+
+- **Bootstrap Sampling**: A boostrap sample is a random sample of the data taken with replacement. Thus it has the same size, also the same distribution of values as the original data set; the model is validated on the OOB samples(observations not contained in a bootstrap sample)
 
 
+## General Feature Engineering Steps
+- **FE Steps**:
+
+    Feature filtering;
+    
+    Dealing with missingness(Imputation);
+    
+    Numerical feature engineering(Normalization(deal with skewness/outliers), Standardization(deal with wide range));
+    
+    Categorical feature engineering(Lumping, One-hot encoding, label encoding)
+    
+- **Normalization & Standardization**:
+    
+- **One-hot encoding & Dummy encoding**:
 
  
 
