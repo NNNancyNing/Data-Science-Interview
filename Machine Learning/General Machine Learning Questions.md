@@ -89,6 +89,11 @@
     
     Dummy encoding created k-1 binary variables.
     
+     <img src="https://github.com/NNNancyNing/Data-Science-Interview/blob/main/Images/One-hot-encoding.png" width=450 height=300>
+     <img src="https://github.com/NNNancyNing/Data-Science-Interview/blob/main/Images/Dummy-encoding.png" width=450 height=300>
+     
+     
     
+   
  
 
